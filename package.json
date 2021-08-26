@@ -1,0 +1,15 @@
+{
+  "name": "demo-pr-checks",
+  "version": "1.0.0",
+  "description": "demo pr checks (including Snyk Code)",
+  "scripts": {
+    "start": "node src/service.js",
+    "lint": "npx prettier --write ."
+  },
+  "dependencies": {
+    "express": "^3.0.0"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
+  }
+}
