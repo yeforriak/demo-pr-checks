@@ -1,6 +1,11 @@
 {
   "name": "demo-pr-checks",
   "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yeforriak/demo-pr-check.git"
+  },
   "description": "demo pr checks (including Snyk Code)",
   "scripts": {
     "start": "node src/service.js",
